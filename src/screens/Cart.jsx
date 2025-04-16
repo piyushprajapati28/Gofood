@@ -24,7 +24,7 @@ export default function Cart() {
 
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
-    let response = await fetch("http://localhost:3300/api/ordersData", {
+    let response = await fetch("https://jitway-server.onrender.com/api/ordersData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

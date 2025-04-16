@@ -12,7 +12,7 @@ export default function MyOrder() {
             return;
         }
 
-        const response = await fetch("http://localhost:3300/api/myOrderData", {
+        const response = await fetch("https://jitway-server.onrender.com/api/myOrderData", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
