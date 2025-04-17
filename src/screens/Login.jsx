@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validation for empty fields
+    
     if (!credentials.email || !credentials.password) {
       alert("Please fill out all fields.");
       return;

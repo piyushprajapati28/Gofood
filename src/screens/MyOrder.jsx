@@ -12,8 +12,8 @@ export default function MyOrder() {
             return;
         }
 
-        const response = await fetch("https://jitway-server.onrender.com/api/myOrderData", {
-            method: 'POST',
+        const response = await fetch("https://jitway-server.onrender.com/api/myorderData", {
+            method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
             },

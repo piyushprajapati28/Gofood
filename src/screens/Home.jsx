@@ -3,7 +3,7 @@ import Navebar from '../components/Navebar'
 import Footer from '../components/Footer'
 import Cards from '../components/Cards'
 import img1 from '../images/img1.webp'
-import img2 from '../images/img2.webp'
+
 import img3 from '../images/img3.webp'
 
 

@@ -12,7 +12,7 @@ export default function Cart() {
   }, 0);
 
 
-  const dete = () => {
+  const dlete = () => {
   };
   if (data.length === 0) {
     return (
@@ -44,7 +44,7 @@ export default function Cart() {
 
   return (
     <div>
-      {dete()} 
+      {dlete()} 
       <div className='container m-auto mt-5 table-responsive table-responsive-sm table-responsive-md'>
         <table className='table table-hover'>
           <thead className=' text-success fs-4'>
